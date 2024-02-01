@@ -28,8 +28,8 @@ export default function MoreProjects() {
         {
             name : 'Portfolio',
             description : 'Next.js, Tailwind CSS' ,
-            code : '' ,
-            website : '' ,
+            code : 'https://github.com/yashgupta2022/yash-gupta-portfolio' ,
+            website : 'https://yash-gupta-portfolio-sigma.vercel.app/' ,
             image : '/images/portfolio.jpg' ,
         }, 
     ]
