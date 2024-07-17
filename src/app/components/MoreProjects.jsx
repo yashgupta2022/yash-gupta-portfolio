@@ -12,6 +12,13 @@ export default function MoreProjects() {
             image : '/images/to-do-list.jpg' ,
         }, 
         {
+            name: 'Airbnb Clone',
+            description: 'React, HTML, CSS, Javascript' ,
+            code: 'https://github.com/yashgupta2022/Airbnb-Clone',
+            website:'https://github.com/yashgupta2022/Airbnb-Clone',
+            image:'/images/airbnb.png',
+        },
+        {
             name : 'IMDB Clone',
             description : 'Next.JS, Tailwind CSS' ,
             code : 'https://github.com/yashgupta2022/imdb-clone' ,
@@ -36,23 +43,23 @@ export default function MoreProjects() {
 
   return (
     <div className='pt-[50px] p-2 mt-2'>
-        <h1 className='text-2xl font-bold mb-4'> More Projects   </h1>
+        <h1 className='mb-4 text-2xl font-bold'> More Projects   </h1>
         {projects.map((project,index)=>( 
-            <div key={index} className='group cursor-pointer hover:shadow-slate-400 shadow-md rounded-lg border border-slate-400 transition-shadow duration-200 max-w-full flex my-4  ' >
+            <div key={index} className='flex max-w-full my-4 transition-shadow duration-200 border rounded-lg shadow-md cursor-pointer group hover:shadow-slate-400 border-slate-400 ' >
 
             <Link href={project.website || project.code} target='#'  >
-            <img src={project.image} alt="project" className=' border-2 rounded-lg  group-hover:opacity-75 transition-opacity duration-300 m-1' style={{width: '150px' , height: '100px'}}/> </Link> 
+            <img src={project.image} alt="project" className='m-1 transition-opacity duration-300 border-2 rounded-lg group-hover:opacity-75' style={{width: '150px' , height: '100px'}}/> </Link> 
             
-                <Link href={project.website || project.code} target='#' className='flex-1 pl-4 p-2'>
-                  <h2 className='text-md font-bold truncate'>
+                <Link href={project.website || project.code} target='#' className='flex-1 p-2 pl-4'>
+                  <h2 className='font-bold truncate text-md'>
                       {project.name} 
                   </h2>
-                  <p className='line-clamp-2 text-sm mt-2 text-gray-500'>{project.description} </p>
+                  <p className='mt-2 text-sm text-gray-500 line-clamp-2'>{project.description} </p>
                 </Link>
                            
-                  <div className='flex flex-col justify-between py-3 px-4 text-sm text-center '>
+                  <div className='flex flex-col justify-between px-4 py-3 text-sm text-center '>
                       <Link className='hover:text-blue-600 hover:font-semibold' target='#' href={project.code}>Code</Link>
-                      <Link className='hover:text-blue-600 p-1 hover:font-semibold' target='#' href={project.website}>Website</Link>
+                      <Link className='p-1 hover:text-blue-600 hover:font-semibold' target='#' href={project.website}>Website</Link>
                   </div> 
                 
             </div>
