@@ -18,7 +18,7 @@ export default function About() {
       <div className='flex flex-col items-start' >
           <div className={`text-lg pt-10 mx-auto space-y-2 text-justify w-[80%]`}>
           <p> I{"'"}m <b>Yash Gupta</b>, a final-year student at <b>Maharaja Agrasen Institute of Technology, Delhi</b>, pursuing <b>Computer Science and Engineering.</b>  </p>
-              <p>I am a web developer specializing in the MERN stack and NextJS framework. 
+              <p>I am a <b>Web Developer</b> specializing in the <b>MERN stack and NextJS</b> framework. 
             My areas of interests are Web Development, Coding and Artificial Intelligence.
             </p>
                    <p> I am eager to leverage my skills and experiences to build a professional career in software development,

@@ -17,7 +17,7 @@ export default function Project({projects}) {
               </Link>            
                 <div className='flex justify-between p-3 pt-0 '>
                     <Link className='hover:text-blue-600 hover:font-semibold' target='#' href={project.code}>Code</Link>
-                    {project?.website ?<Link className='hover:text-blue-600 hover:font-semibold' target='#' href={project.website}>Website</Link> :""}
+                    {project?.website ?<Link className='hover:text-blue-600 hover:font-semibold' target='#' href={project.website}>Demo</Link> :""}
                 </div>   
           </div>
         ))}

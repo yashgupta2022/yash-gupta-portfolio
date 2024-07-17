@@ -31,17 +31,17 @@ export default function Home() {
             <div className={`pt-10  mr-10 max-w-full  ${show ? ' sm:ml-[30vw] md:ml-[25vw] lg:ml[20vw] pl-10 lg:pl-0' :'ml-10'} `}  >
 
                 <div className='z-10 dark:bg-[#14131a] bg-white shadow-md fixed top-0 right-0 p-1 w-full'>
-                    <div className=' flex justify-end  items-center space-x-6 p-2 pr-6' >
-                        <DarkModeSwitch className='h-6 w-6 hover:scale-125 transition-transform ease-out duration-200 cursor-pointer ' />
-                        <GiHamburgerMenu  onClick={()=>setShow(p=>!p)} className=' h-6 w-6 text-gray-800 dark:text-white hover:scale-125 transition-transform ease-out duration-200 cursor-pointer ' />
+                    <div className='flex items-center justify-end p-2 pr-6 space-x-6 ' >
+                        <DarkModeSwitch className='w-6 h-6 transition-transform duration-200 ease-out cursor-pointer hover:scale-125 ' />
+                        <GiHamburgerMenu  onClick={()=>setShow(p=>!p)} className='w-6 h-6 text-gray-800 transition-transform duration-200 ease-out cursor-pointer dark:text-white hover:scale-125' />
                     </div>
                 </div>
                 
                 <About />
                 <Projects />  
-                <div className='grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 ' >
-                <div id='skills' className='row-start-2 md:row-start-1 pt-[50px] '><Skills /></div>
-                <MoreProjects  />
+                
+                <div id='skills' className='pt-[50px] '><Skills />
+                {/* <MoreProjects  /> */}
                 <p className='min-h-[20vh]'></p>
                 </div>
             </div> 
