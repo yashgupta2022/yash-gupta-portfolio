@@ -6,7 +6,7 @@ export default function Projects() {
   const projects = [
      {
       name: 'AI Sketchpad Calculator' ,
-      description: 'Calculates handwritten equations using image to text conversion and solving through AI' ,
+      description: 'Calculates handwritten equations using image to text conversion and solving through Google Gemini AI model' ,
       code:'https://github.com/yashgupta2022/AI-Sketchpad-Calculator',
       website : 'https://github.com/yashgupta2022/AI-Sketchpad-Calculator' ,
       image: 'https://private-user-images.githubusercontent.com/113247095/369866400-604066f7-d187-448d-8a3b-d5ad2f61d178.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcwOTc1NTYsIm5iZiI6MTcyNzA5NzI1NiwicGF0aCI6Ii8xMTMyNDcwOTUvMzY5ODY2NDAwLTYwNDA2NmY3LWQxODctNDQ4ZC04YTNiLWQ1YWQyZjYxZDE3OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyM1QxMzE0MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMGVhZDIyNzFiNmUyMjI5OGM2OGNjN2M2OWFiNGIzMGRlOTg4MzhiZDNkNzgxMWU2NzBlM2ZmZmQ0OWU3M2YxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BSkfZ5H-2KQF9Mk69BdcG6tYYA4IqOb5WrsPiJLW0Is',
